@@ -1,0 +1,26 @@
+.footer {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #f87516 0%, #5e11ff 100%);
+  color: #eee5ffb8;
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding: 0;
+}
+.links {
+  height: 100%;
+  margin: 0;
+}
+
+.links a {
+  color: #eee5ffb8;
+  text-decoration: none;
+  transition: color 0.3s;
+  /* margin:0px 0px 0px 0px;    */
+}
+.links a:hover {
+  color: white;
+}
+.row {
+  padding: 0;
+  --bs-gutter-x: 0;
+}
