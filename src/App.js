@@ -1,10 +1,12 @@
-
+import './App.css';
 import HomePage from "./Componnets/HomePage";
 import Footer from "./Componnets/Footer";
+import ParticlesComponent from "./Componnets/particles";
 
 function App() {
   return (
-    <div className="main" style={{ backgroundColor: "black", color: "white" }}>
+    <div className="main">
+      <ParticlesComponent id="particles"  />
       <HomePage />
       <Footer />
     </div>
